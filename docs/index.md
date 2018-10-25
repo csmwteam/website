@@ -1,5 +1,7 @@
 # Welcome!
 
+[![Build Status](https://travis-ci.org/csmwteam/website.svg?branch=master)](https://travis-ci.org/csmwteam/website)
+
 Welcome to the wiki for the W-Team group at the Colorado School of Mines.
 This site is maintained by a group of researchers at the CSM interested in
 exploring how we go from data to decisions in geophysics.
