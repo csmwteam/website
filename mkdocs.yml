@@ -2,7 +2,7 @@ site_name: CSM W-Team
 site_author: Bane Sullivan
 site_description: " "
 repo_url: https://github.com/csmwteam/
-repo_name: CSM W-Team on GitHub
+repo_name: W-Team on GitHub
 site_url: https://csmwteam.github.io/
 edit_uri: ""
 copyright: Copyright &copy 2017-2018, <a href="http://banesullivan.com">Bane Sullivan</a>
@@ -23,7 +23,7 @@ theme:
     feature:
         tabs: true
     palette:
-        primary: 'green'
+        primary: 'white'
         accent: 'red'
     custom_dir: custom_theme
 
