@@ -1,0 +1,53 @@
+site_name: CSM W-Team
+site_author: Bane Sullivan
+site_description: " "
+repo_url: https://github.com/csmwteam/
+repo_name: CSM W-Team on GitHub
+site_url: https://csmwteam.github.io/
+edit_uri: ""
+copyright: Copyright &copy 2017-2018, <a href="http://banesullivan.com">Bane Sullivan</a>
+
+# google_analytics:
+#   - ''
+#   - 'auto'
+
+extra:
+  social: # check https://fontawesome.com/icons?d=gallery for more icons
+    - type: 'slack'
+      link: 'http://minesgeophysics.slack.com'
+    - type: 'github'
+      link: 'https://github.com/csmwteam'
+
+theme:
+    name: material
+    feature:
+        tabs: true
+    palette:
+        primary: 'green'
+        accent: 'red'
+    custom_dir: custom_theme
+
+extra_css:
+    - stylesheets/extra.css
+
+
+markdown_extensions:
+    - smarty
+    - toc:
+        permalink: true
+    - admonition
+    - codehilite:
+        #linenums: true
+        guess_lang: true
+    - meta # see this page: https://squidfunk.github.io/mkdocs-material/extensions/metadata/
+    - footnotes # see this page: https://squidfunk.github.io/mkdocs-material/extensions/footnotes/
+    - pymdownx.b64 # local images
+    - pymdownx.superfences # code snippets
+    - pymdownx.inlinehilite #example: import the NumPy module by `#!py import numpy`
+    - pymdownx.caret # ability to add exponents with caret: a^3
+    - pymdownx.details # collapsible widgets
+    - pymdownx.tasklist:
+        custom_checkbox: true
+
+plugins:
+    - search
