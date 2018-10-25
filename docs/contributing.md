@@ -11,10 +11,10 @@ We have set up this website to be automatically generated and deployed via Travi
 so anyone with write privileges can contribute content and have the website immediately
 reflect their contributions!
 
-To get started, go to the [**csmwteam/csmwteam.github.io**](https://github.com/csmwteam/csmwteam.github.io)
+To get started, go to the [**csmwteam/website**](https://github.com/csmwteam/website)
 repository and navigate to the `docs` directory.
 
-![csmwteam/csmwteam.github.io](img/github-repo.png)
+![csmwteam/website](img/github-repo.png)
 
 From there find the appropriate folder for your contribution and create a new file.
 Want to create a new section (a new tab on the menu bar)? Then simply make a new directory in the docs directory.
@@ -34,10 +34,10 @@ Finally commit your changes and wait a few minutes for Travis-CI to deploy the w
 
 ## On Your Own Machine
 
-First, clone the [**csmwteam/csmwteam.github.io**](https://github.com/csmwteam/csmwteam.github.io) repository:
+First, clone the [**csmwteam/website**](https://github.com/csmwteam/website) repository:
 
 ```bash
-$ git clone https://github.com/csmwteam/csmwteam.github.io.git
+$ git clone https://github.com/csmwteam/website.git
 
 $ cd csmwteam.github.io
 ```
