@@ -39,7 +39,7 @@ First, clone the [**csmwteam/website**](https://github.com/csmwteam/website) rep
 ```bash
 $ git clone https://github.com/csmwteam/website.git
 
-$ cd csmwteam.github.io
+$ cd website
 ```
 
 
